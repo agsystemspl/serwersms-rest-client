@@ -1,0 +1,35 @@
+{
+  "name": "agsystemspl/serwersms-rest-client",
+  "description": "SerwerSMS REST Client",
+  "keywords": [
+    "serwersms",
+    "rest",
+    "api"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Krzysztof Gwiazda",
+      "email": "k.gwiazda@agsystems.pl"
+    }
+  ],
+  "type": "library",
+  "require": {
+    "php": ">=7.0",
+    "agsystemspl/abstract-rest-client": "dev-master"
+  },
+  "require-dev": {
+    "vlucas/phpdotenv": "^2.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "AGSystems\\SerwerSMS\\REST\\": "src/"
+    }
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/agsystemspl/abstract-rest-client"
+    }
+  ]
+}
